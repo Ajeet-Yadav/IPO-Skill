@@ -1,6 +1,6 @@
 # IPO KNOWLEDGE MEMORY — Indian Mainboard IPOs
 **Owner:** Ajeet Kumar | **Maintained by:** Claude (IPO Research & Risk-Control Assistant)
-**Version:** 1.0 | **Created:** 17 Sept 2026 | **Data window analysed:** Apr 2025 – 17 Sept 2026
+**Version:** 1.3 | **Created:** 17 Sept 2026 | **Last updated:** 5 Oct 2026 | **Data window analysed:** Apr 2025 – 5 Oct 2026
 **How to use:** Upload this file at the start of any IPO conversation. Sections 3–5 are the rulebook; Section 6 is the evidence; Section 12 is the live log. Update Sections 12–14 after every trade.
 
 ---
@@ -72,6 +72,48 @@ Business 15 · Financial quality 15 · Growth 10 · Governance 15 · Valuation 2
 
 ---
 
+## 3.5 STANDARD IPO SNAPSHOT (required at the top of every IPO evaluation)
+A 12-line chain, one line each, before the long-form analysis. Write "n/a" where a step does not apply to the business model (e.g., order book for a retailer, capacity for an exchange).
+
+1. **Industry** — structure, growth, cyclicality, regulation, where we are in the cycle
+2. **Business economics** — what is sold, to whom, moat, pricing power
+3. **Unit economics** — margin per unit/order/customer, take rate, gross-to-EBITDA bridge
+4. **Capacity** — installed vs utilised, expansion funded by the issue, time to fill
+5. **Order book** — size vs revenue, execution period, concentration
+6. **Financial statements** — 3-yr revenue/EBITDA/PAT trend, margin direction, one-offs
+7. **Cash conversion** — CFO/EBITDA, FCF sign, working-capital days trend, payables stretch
+8. **Capital allocation** — use of proceeds, debt paydown vs growth, past capex returns (ROCE trend)
+9. **Management quality** — promoter record, holding post-issue, OFS size, governance flags, BRLM tier
+10. **Valuation & peers** — P/E / EV-EBITDA / P-B at upper band vs RHP peer median, adjusted for growth and ROCE
+11. **Downside scenario** — what the stock is worth if the bear case lands; % below issue price
+12. **Thesis-breakers** — 3–5 observable events that would end the trade or the hold
+
+Then the two verdicts (listing / long-term), the Day-3 QIB threshold for this issue, and position size.
+
+## 3.6 RULEBOOK v1.3 (5 Oct 2026) — supersedes conflicting lines elsewhere in this file
+1. **Listing-trade apply rule:** Mainboard, final QIB (ex-anchor) ≥ 25x AND total ≥ 15x on the post-3 PM Day-3 print. Final QIB < 5x → skip (0 gains in every case so far: A-One +3%, Hero −2.4%, Manipal −2.7%, ARCIL 0%).
+2. **Fundamental flags veto holds, not listing trades.** Pre-IPO profit spikes, rich P/E and heavy OFS did not stop strong listings once QIB ≥ ~75x (Moneyview spike → +58%; SS Retail 79x P/E → +47–51%). They still decide the long-term verdict.
+3. **Only a post-3 PM exchange/Chittorgarh Day-3 print is valid.** Midday third-party data nearly caused a wrong Moneyview skip (QIB 3.8x midday → 219x at 3:39 PM). No fresh print → ask for a screenshot.
+4. **Micro-issues (< ₹250 Cr):** no auto-skip with a Tier-1/2 BRLM — run the Day-3 check. Still skip if Tier-3 BRLM or retail heading past ~75x (EV < ~₹100 per application). Adroit (+76%) was skipped without a Day-3 check — process miss; ArMee (−27%) skip was right.
+5. **GMP = direction only.** It under-predicted QIB > 150x books (SS Retail 32% GMP → +50%; Moneyview 24–41% → +58%) and over-predicted retail/NII-led books (Kanohar, Glass Wall, Skyways). The old "GMP > 30% over-promises" rule is retired.
+6. **Allotment is a lottery; volume of qualifying applications is the edge.** EV per qualifying application ≈ ₹200–500. Apply to every issue that clears rule 1 (within regime limits) and keep ≥ 2 lots of free cash on closing days.
+7. **Unchanged:** one lot at cut-off; SME excluded; sell at open or split when open is strong; mega-IPOs are holds, not trades; fundamentals alone decide long-term verdicts.
+
+## 3.7 MACRO REGIME CHECK (run on every "macro check" and before every IPO decision)
+Track: US 10-yr Treasury yield, Brent crude, India gold rate (and spot $/oz), USD/INR, India VIX.
+
+| Regime | Signals | Effect |
+|---|---|---|
+| **Stress** | US 10-yr > 5.5% AND Brent > $110 | No IPO listing trades; only staged buys of quality long-term names |
+| **Caution** (set late Sep 2026: 10-yr ~5.28%, Brent ~$102, VIX ~13.7, heavy FII selling) | Between the two | Max 1 open listing trade; sell at open; no Day-2 holds |
+| **Normal** | US 10-yr < 5.0% AND Brent < $90 | Standard rules; IT tranches proceed as planned |
+| **Fear signal** | Gold rising while US yields stay high | Trigger a check-in |
+
+Transmission to India: higher US yields → FII outflows, weaker rupee; higher crude → inflation, weaker rupee, no RBI cuts. A US–Iran deal on Hormuz is the biggest single swing factor for crude.
+VWRA: keep SIP; lump sum only if global stocks fall 10–15% from highs. Optional: shift ₹4,000/month from VWRA to Nifty 50 while Nifty P/E < ~20; revert when > ~21.
+
+---
+
 ## 4. TWO PROBLEMS, TWO TOOLKITS
 
 | | Listing-gain trade | Long-term hold |
@@ -119,6 +161,17 @@ Sample ≈ 108 issues. **~57 above issue, ~51 below.** Median return ≈ +5%. Fa
 63 Mainboard listings, ₹77,237 Cr raised, **46 gainers / 17 losers (73%)** vs issue price (younger cohort; expect decay toward ~55% over 12 months).
 
 ---
+
+### 6.4 Applied vs skipped scorecard (11 Sep – 5 Oct 2026)
+| Call | IPO | Final QIB | Outcome |
+|---|---|---|---|
+| Applied | Karamtara | 160x | +26% open, UC +38.6%; allotted, realised +₹5,715 |
+| Applied | SS Retail | 204x | +47–51% open; not allotted (~1 in 36) |
+| Applied | Moneyview | 219x | ~+58%; not allotted (~1 in 18) |
+| Applied (hold) | NSE | — | ~−2.4%; holding |
+| Skipped — right | A-One +3%, ArMee −27%, Hero −2.4%, Manipal −2.7%, ARCIL 0%, Sonaselection +3%, Jindal Supreme (+31% open but ~1-in-150 odds, EV ≈ ₹30) | | |
+| Skipped — wrong | LCC +29.5%, Rentomojo +19%, Steamhouse +17% (Day-2 data), Adroit +76% (no Day-3 check) | | |
+| Not tracked | Veegaland, Manika, Varmora | | |
 
 ## 7. PATTERN LIBRARY (what the data actually says)
 
@@ -213,18 +266,27 @@ Sample ≈ 108 issues. **~57 above issue, ~51 below.** Median return ≈ +5%. Fa
 | **Vikram Solar / Oswal Pumps / Solarworld (2025)** | Hot sector, 25–86x P/E, big books | −51% / −56% / −62% within a year | Sector-hot IPOs are listing trades, not investments |
 | **Aditya Infotech / KSH / Atlanta (2025)** | 22–29x P/E, Tier-1 BRLMs, electrical equipment | +426% / +176% / +119% | Reasonably priced quality in a structurally strong sector is where IPO long-term wealth actually came from |
 | **LIC / Hyundai (history), HDB / NSDL (2025)** | Mega-OFS | −8% / −1% at listing; recovered over time | Mega-IPOs: hold, don't trade |
+| **Karamtara Day 2 (18 Sep 2026)** | Day-1 close locked at UC ₹352, 100% bid board | Day 2 traded ~₹348 — no gap-up | A locked circuit with zero sellers did NOT produce a higher Day-2 open. The Day-1 bid queue was speculators, not conviction. Supports selling ≥65% at Day-1 strength |
+| **Pranav / Deepa Jewellers fade (Sep 2026)** | Pranav open +31% (126x); Deepa open +25% (43x) | Pranav −12% below issue within 2 days; Deepa −3% within 9 days | Small-float pops are liquidity events to sell into. Strongest evidence for sell-at-open |
+| **Hero Motors (Sep 2026) — SKIPPED** | Munjal brand, 86x P/E, 11% ROCE; retail 7.8x, NII 8x but QIB **0.6x** final; GMP ₹22 → ₹3 | Listing 23 Sep — log outcome | Brand-name retail demand with institutional refusal. Adverse selection: high allotment odds on the issue you don't want |
+| **Jindal Supreme (Sep 2026) — SKIPPED** | ₹125 Cr micro-issue; QIB 36x but retail 117x, NII 259x | Listing 23 Sep — log outcome | Even a great book is worthless when allotment is 1-in-98 (EV ≈ ₹45). Micro-issues fail the sizing test before the quality test |
+| **SS Retail (Sep 2026) — APPLIED (listing trade)** | 79x P/E mobile retailer; anchors strong (ICICI Pru, Kotak Life, Axis, Mirae, WhiteOak); QIB 0.23x Day 2 → **94x** Day 3 (MFs only 1% of QIB book); GMP 32% | Listing 23 Sep — sell at open regardless | Test case for: Tier-2 BRLM + >30% GMP + extreme P/E + huge insurer/"Others"-led QIB. Nearest analogue Symbiotec (par) |
 
 ---
 
-## 11. WATCHLIST & PIPELINE (as of 17 Sept 2026)
+## 11. WATCHLIST & PIPELINE (as of 18 Sept 2026)
 
 | IPO | Status | Stance |
 |---|---|---|
-| **NSE** | Open 17–21 Sep; ₹1,700–1,785; lot 8 = ₹14,280; ₹22,562 Cr 100% OFS; ~43x P/E; GMP ~9% | **APPLY 1 lot — long-term core.** Verify BSE Ltd P/E as yardstick. Risks: derivatives regulation, volume cyclicality |
-| SS Retail | Open 16–18 Sep; ₹424; 79x P/E; strong anchors (Kotak, SBI, Axis, WhiteOak, ICICI Pru); Day-1 QIB 0.21x | Conditional listing trade only: Day-3 2:30 PM QIB ≥ 25x & total ≥ 40x → 1 lot, sell at open. Else skip |
-| Hero Motors | Open 16–18 Sep; ₹84; ~90x P/E; GMP ₹0–13; Day-1 QIB 0.01x | Skip unless QIB ≥ 20x. Brand-name trap |
-| Jindal Supreme / Sonaselection | ₹125–140 Cr micro-issues | Skip (7.3) |
-| Veegaland / Manika Plastech | Listing ~18–19 Sep | Skipped; log outcomes for calibration |
+| **NSE** | Open 17–21 Sep; ₹1,700–1,785; lot 8 = ₹14,280; ₹22,562 Cr 100% OFS; ~43x P/E; GMP ~8–9% | **APPLIED 1 lot (17 Sep) — long-term core.** Listing ~24 Sep; hold. Verify BSE Ltd P/E as yardstick |
+| SS Retail | Closed 18 Sep; final NSE book QIB 94x / NII 97x / Retail 21x / total 56x; GMP ₹137 (32%) | **APPLIED 1 lot (18 Sep, ₹14,840).** Allotment 21 Sep (odds ~1 in 22). Lists 23 Sep. **Sell at open regardless of level** |
+| Hero Motors | Closed 18 Sep; QIB 0.6x, total ~6x; GMP ₹3–6 | **SKIPPED.** Lists 23 Sep — log for calibration |
+| Jindal Supreme | Closed 18 Sep; 124x total, QIB 36x, retail 117x; GMP ~33% | **SKIPPED** (micro-issue; 1-in-98 allotment). Lists 23 Sep — log |
+| Sonaselection India | Open 17–21 Sep; ₹141 Cr fabric maker; Day-1 ~1x; GMP ₹2 | Skip (7.3) |
+| **A-One Steels** | Mainboard, 24–28 Sep, lists 1 Oct; ₹650 Cr (₹600 fresh + ₹50 promoter OFS); FY26 income ₹4,202 Cr, PAT ₹127 Cr (from ₹7.7 Cr FY25 — 16x pre-IPO jump), margin 3%, debt ₹1,011 Cr, D/E 1.17; band TBA ~22 Sep | **Lean skip.** Re-run only if priced < ~10x FY26 with Tier-1/2 BRLMs. Small-steel FY26 cohort mostly −11% to −49% |
+| Axiom Gas, Kheria, SpectraA, FX Multitech, Robokidz, S.K. Offset, Shakti Polytarp, Vama, Quanto, Liqvd Digital, Sai Urja, Himalaya Nutravedics, Anand Seamless, Vivekanand Cotspin | Sep 21–28 | All SME — excluded |
+| Varmora Granito | Opens 22 Sep (per alphave listing) | Check whether Mainboard; screen if so |
+| Veegaland (lists 18 Sep) / Manika Plastech (final 28x, QIB 11x, retail 23x; lists 21 Sep) | Skipped | Log outcomes: Veegaland tests weak-QIB real-estate skip; Manika tests pre-IPO margin-spike skip |
 | **Jio Platforms** | SEBI observation 28 Aug 2026; RHP pending; est. ₹37,700 Cr, 100% fresh, ~2.9% dilution, ₹27,500 Cr debt repayment; Oct–Nov window likely | Reserve ₹15–20k. Evaluate on RHP price band; likely WAIT if > 45x trailing. Not a listing-pop candidate (mega-IPO pattern) |
 | Mahanadi Coalfields | DRHP filed 31 Aug 2026; FY PAT ~₹9,595 Cr (Coal India subsidiary) | Potential PSU value play — evaluate on filing |
 | Iberia Pharma, MKC Agro Fresh, Maharashtra Oil Extractions | DRHPs filed Sep 2026 | Screen when RHP lands |
@@ -235,10 +297,13 @@ Sample ≈ 108 issues. **~57 above issue, ~51 below.** Median return ≈ +5%. Fa
 
 | # | IPO | Applied | Amount | Allotted | Exit | P&L | Notes |
 |---|---|---|---|---|---|---|---|
-| 1 | Karamtara Engineering | 11 Sep 2026, 1 lot @ cut-off ₹254 | ₹14,986 | 59 shares (15 Sep) | 17 Sep: sold 40 @ ₹352 (+38.6%). 19 held, stop ₹320, time-stop 18 Sep close | Realised **+₹3,920** on 40 sh; unrealised +₹1,862 on 19 @352 | Decision taken at Day-3 2:30 PM on QIB 35x live. Exit rule pre-set. Split A (40/19) |
-| 2 | NSE | Pending — apply 17–21 Sep | ₹14,280 | — | Long-term hold; listing pop is a bonus | — | — |
+| 1 | Karamtara Engineering | 11 Sep 2026, 1 lot @ cut-off ₹254 | ₹14,986 | 59 shares (15 Sep) | 17 Sep: 40 @ ₹352; 18 Sep: 19 @ ₹348.45 (time-stop) | **+₹5,715 realised (+38.1%)**; proceeds ₹20,700 | Decision at Day-3 2:30 PM on QIB 35x live. Split 40/19; remainder gave back only ₹3.55/sh vs Day-1 UC. CLOSED |
+| 2 | NSE | 17 Sep 2026, 1 lot @ cut-off ₹1,785 | ₹14,280 | **8 shares allotted** | Listed 24 Sep at ~par; ₹1,741 on 1 Oct. HOLD; add-zone ≤ ₹1,650 after anchor unlock | Unrealised ~−₹350 | 100% OFS, ~43x P/E, dominant franchise. Regulatory (derivatives) risk is the thesis-breaker to watch |
+| 3 | SS Retail | 18 Sep 2026, 1 lot @ cut-off ₹424 | ₹14,840 | **Not allotted** (final retail ~36x) | Listed +47–51% | — | Pure demand trade: QIB 94x, GMP 32%, 79x P/E, Tier-2 BRLM. No hold under any outcome |
 
-**Running P&L (realised): +₹3,920 pre-tax (~+₹3,136 after 20% STCG).**
+| 4 | Moneyview | 28 Sep 2026, 1 lot @ cut-off ₹34 | ₹14,994 | **Not allotted** (retail ~18.5x) | ~+58% after listing | — | Applied on the 3:39 PM print (QIB 219x) after midday data showed ~4x |
+
+**Running P&L (realised): +₹5,715 pre-tax (~+₹4,570 after 20% STCG). Open: NSE 8 shares. Free cash: ~₹85,000 (incl. ₹20k Jio reserve). Planned: ₹10,000 IT tranches (TCS/Infosys/HCLTech).**
 
 ---
 
@@ -251,6 +316,15 @@ Sample ≈ 108 issues. **~57 above issue, ~51 below.** Median return ≈ +5%. Fa
   - BRLM tiers formalised; Tier-3 Mainboard treated as SME-equivalent.
   - Default listing-day exit changed from "sell all at open" to **split: ~65–70% at open, remainder with open-price stop and 1–2 session time stop**.
   - Pool raised to ₹1 lakh; sizing rules in Section 1 adopted.
+- **v1.3 (5 Oct 2026):** Rulebook 3.6 (apply rule QIB ≥ 25x / total ≥ 15x; QIB < 5x skip; fundamental flags veto holds only; post-3 PM print only; micro-issue Day-3 check; GMP direction-only; apply-to-every-qualifier). Macro regime check 3.7 added. Scorecard 6.4 added. Moneyview not allotted.
+- **v1.2 (18 Sep 2026):** Added Section 3.5 — mandatory 12-line IPO snapshot (Industry → Business economics → Unit economics → Capacity → Order book → Financials → Cash conversion → Capital allocation → Management → Valuation/peers → Downside → Thesis-breakers) at the top of every evaluation.
+- **v1.1 (18 Sep 2026):**
+  - Karamtara closed at +38.1%; Day-2 showed no gap-up after a locked Day-1 UC → reinforces selling ≥65% into Day-1 strength.
+  - Pranav (−12% in 2 days from +31% open) and Deepa (−3% from +25%) added as sell-at-open evidence.
+  - New rule: **allotment-odds test before the quality test** for micro-issues — if retail is heading past ~50x, EV of an application is < ₹100 and the money is better kept free (Jindal Supreme, 1-in-98).
+  - Multi-lot rule stated explicitly: when retail > 1x, extra lots give zero extra allotment probability. Always 1 lot.
+  - QIB composition added as a secondary read: MF share of QIB book (Karamtara ~11%, SS Retail ~1%). Insurer/"Others"-led books to be tracked against listing outcomes.
+  - SS Retail taken as a controlled test of the Tier-2 BRLM + >30% GMP + extreme-P/E profile, with a sell-at-open-regardless exit.
 
 ---
 
@@ -258,7 +332,10 @@ Sample ≈ 108 issues. **~57 above issue, ~51 below.** Median return ≈ +5%. Fa
 - BSE Ltd current P/E and EV/EBITDA (NSE yardstick).
 - Bharti Airtel EV/EBITDA (Jio yardstick).
 - Karamtara: FY26 top-10 customer share; contingent liabilities; receivable days; capacity utilisation (RHP p.19+).
-- Day-2 behaviour of Karamtara vs Day-1 UC (log for the "hold remainder" rule calibration).
+- ~~Day-2 behaviour of Karamtara~~ → resolved: no gap-up (traded ~₹348 vs ₹352 UC).
+- 23 Sep listings: SS Retail (applied), Hero Motors (QIB 0.6x — expect flat/negative), Jindal Supreme (124x micro-issue — expect pop then fade). Three simultaneous calibration points for the framework.
+- Does MF share of the QIB book predict listing quality? Compare Karamtara (~11% MF, +26% open) vs SS Retail (~1% MF, TBD).
+- A-One Steels price band (~22 Sep): compute P/E on FY26 PAT ₹127 Cr and on FY25 PAT ₹7.7 Cr (normalised) — the gap is the window-dressing risk.
 - Veegaland and Manika Plastech listing outcomes (18–19 Sep) — test of "skip weak-QIB real estate" and "pre-IPO margin spike" rules.
 - Track: do the Sep 2026 winners (LCC, Pranav, Rentomojo) hold gains at 1 month / 3 months?
 
